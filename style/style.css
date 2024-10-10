@@ -1,7 +1,8 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 body {
@@ -11,9 +12,10 @@ body {
 .container {
     max-width: 1920px;
     height: 850px;
+}
 
-    background: rgba(229, 84, 115, 0.1);
-
+.content {
+    background-color: #FCEEF1;
 }
 
 .header-container {
@@ -32,8 +34,8 @@ body {
 .head-sub-container-img {}
 
 .head-img {
-   margin-top: 45px;
-   margin-left: 95px;
+    margin-top: 45px;
+    margin-left: 95px;
 }
 
 .head-1 {
@@ -52,8 +54,115 @@ body {
     font-size: 20px;
     font-weight: 700;
     color: rgb(255, 255, 255);
-    background-color:#E55473;
+    background-color: #E55473;
     border: none;
     border-radius: 3px;
     padding: 10px 20px;
+}
+
+.main-section-1 {
+    max-width: 1920px;
+
+    height: 850px;
+}
+
+.main-container-head-1 {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.heading-part-1 {
+    ont-size: 40px;
+    font-weight: 800;
+    margin-top: 160px;
+    margin-bottom: 20px;
+}
+
+.our-feature-section {
+    width: 85%;
+    margin: auto;
+    height: 850px;
+   
+    margin-top: 165px;
+    
+}
+
+.feature-tittle-container {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.feature-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+    width: 85%;
+    margin: 0 auto;
+   
+}
+
+.img-container-part {
+    /* width: 33%; */
+    /* height: 505px; */
+    width: 464px;
+    height: 605px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container {
+    width: 310px;
+    height: 428px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 110px;
+    padding-left: 75px;
+    padding-right: 75px;
+    border-radius: 50% 50% 0 0;
+}
+
+#frist {
+    background-color: #F2DEE8;
+}
+
+#second {
+    background-color: #DAF0F1;
+}
+
+#third {
+    background-color: #E4ECDC;
+}
+
+.img-head {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.img-para {
+    /* display: flex; */
+
+    /* margin: 32px 100px 0 100px; */
+    margin: 32px 65px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
 }
