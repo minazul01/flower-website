@@ -243,6 +243,7 @@ body {
 .instagram-section {
     max-width: 1920px;
     height: 500px;
+    margin-bottom: 120px;
 }
 
 .instagram-part {
@@ -259,7 +260,7 @@ body {
 
 .instagram-part-2 {
     width: 295px;
-    height: 296px;
+    height: 370px;
 }
 
 .instagram-part-2 img {
@@ -277,14 +278,14 @@ body {
 .lates-section {
     max-width: 1920px;
     height: 449px;
-    ;
-    border: 2px solid red;
 }
 
 .lates-container {
-    /* background-image: url(../images/latest-deals-bg.png); */
+    background-image: url(../images/latest-deals-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 83%;
-    border: 2px solid green;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -298,7 +299,6 @@ body {
     font-size: 30px;
     font-weight: 800;
     margin-bottom: 10px;
-    margin-top: 80px;
 }
 
 .head-paragraph-3 {
@@ -316,8 +316,6 @@ body {
 .deals-container {
     width: 50%;
     margin: 0 auto;
-    /* height: 35px; */
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -326,3 +324,64 @@ body {
 
 }
 
+.lates-img {
+    width: 485px;
+    height: 40px;
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: none;
+}
+
+.deals-btn {
+    width: 95px;
+    height: 45px;
+    margin-left: 5px;
+    background-color: rgb(229, 84, 115);
+    border-radius: 3px;
+    border: none;
+}
+
+.main-container {
+    max-width: 1920px;
+    height: 380px;
+    background: #6991ef;
+    margin-top: 20px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 700px;
+    height: 250px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+.footer-head {
+    width: 259px;
+    height: 58px;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer-paragraph {
+    width: 625px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.footer-sm-para {
+    width: 355px;
+    height: 19px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer-span{
+    color: rgb(229, 84, 115);
+}
